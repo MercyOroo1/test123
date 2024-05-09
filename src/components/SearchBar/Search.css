@@ -1,0 +1,33 @@
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none; /* Remove outline when focused */
+}
+
+.search-bar button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Hover and Focus Effects */
+.search-bar input[type="text"]:hover,
+.search-bar input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.search-bar button[type="submit"]:hover {
+    background-color: #0056b3;
+}
